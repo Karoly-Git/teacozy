@@ -10,18 +10,18 @@ html {
     font-size: 22px;
 }
 
-body{
+body {
     background-color: black;
 }
 
 /*h1, h2, h3, h4, h5, h6, p, figcaption, a {
 }*/
 
-.logo{
+.logo {
     height: 50px;
 }
 
-header{
+header {
     display: flex;
     align-items: center;
     height: 69px;
@@ -38,11 +38,12 @@ header{
 header ul li {
     display: inline;
 }
+
 header ul li+li {
     margin-left: 10px;
 }
 
-.top-section{
+.top-section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -57,14 +58,19 @@ header ul li+li {
     margin-top: 69px;
 }
 
-.top-section h2, .top-section h4{
+.top-section h2,
+.top-section h4 {
     background-color: black;
     width: 100%;
     text-align: center;
-    padding: 10px;
+    padding: 30px;
 }
 
-.middle-section{
+.top-section h2 {
+    padding-bottom: 0;
+}
+
+.middle-section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -72,40 +78,41 @@ header ul li+li {
     margin: 0 auto;
 }
 
-.middle-section h1, .middle-section h2{
+.middle-section h1,
+.middle-section h2 {
     background-color: black;
     width: 100%;
     text-align: center;
     padding: 30px;
 }
 
-.middle-section h1{
+.middle-section h1 {
     padding-bottom: 0;
 }
 
-.middle-section div{
+.middle-section div {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 50px;
 }
 
-.middle-section figure{
+.middle-section figure {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.middle-section figure figcaption{
+.middle-section figure figcaption {
     margin-top: 10px;
 }
 
-.middle-section figure img{
+.middle-section figure img {
     width: 300px;
     height: 200px;
 }
 
-.bottom-section{
+.bottom-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -117,12 +124,12 @@ header ul li+li {
     background-position: center;
 }
 
-.shop-locations{
+.shop-locations {
     display: flex;
     gap: 40px;
 }
 
-.shop-locations div{
+.shop-locations div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -132,7 +139,29 @@ header ul li+li {
     padding: 40px 0 0;
 }
 
-.shop-locations div h3, 
-.shop-locations div p{
+.shop-locations div h3,
+.shop-locations div p {
     margin-bottom: 40px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 150px;
+}
+
+footer div h2,
+footer div h5 {
+    text-align: center;
+}
+
+footer h4 {
+    margin-left: 20px;
 }
