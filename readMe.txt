@@ -18,3 +18,13 @@
 26th Jan, 2024 - CodeCademy learning day
 27th Jan, 2024 - CodeCademy learning day
 28th Jan, 2024 - CodeCademy learning day
+29th Jan, 2024 - CodeCademy learning day
+30th Jan, 2024 - CodeCademy learning day
+31th Jan, 2024 - CodeCademy learning day
+
+1st Feb, 2024 - CodeCademy learning day
+2nd Feb, 2024 - CodeCademy learning day
+3rd Feb, 2024 - CodeCademy learning day
+4th Feb, 2024 - CodeCademy learning day
+5th Feb, 2024 - CodeCademy learning day
+6th Feb, 2024 - CodeCademy learning day
